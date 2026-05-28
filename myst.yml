@@ -5,15 +5,27 @@ project:
   title: MECH 564 Fundamentals of Robot Mechanics and Control
   description: Lab notebooks for MECH 564 at Colorado State University.
   authors:
-    - Colorado State University
+    - name: Jianguo Zhao
+      affiliation: Department of Mechanical Engineering, Colorado State University
+  copyright: '2026'
   github: JianguoZhaoRobotics/RobotMechanicsControl
+  thebe:
+    binder:
+      repo: JianguoZhaoRobotics/RobotMechanicsControl
+      provider: github
+      url: ''
+      ref: main
+  exports:
+    - format: pdf
+      template: plain_latex_book
+      output: exports/book.pdf  
   toc:
     - file: intro.md
     - file: Lab1 Intro to Python.ipynb
     - file: Lab2 ForwardKinematics.ipynb
     - file: Lab3 Inverse Kinematics & Dynamics.ipynb
-    - file: Lab4_RobotControl.ipynb
-    - file: Lab 5 quadruped_trot_demo.ipynb
+    - file: Lab4 RobotControl.ipynb
+    - file: Lab5 quadruped_trot_demo.ipynb
 
 site:
   template: book-theme
