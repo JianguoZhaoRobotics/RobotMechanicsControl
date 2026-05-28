@@ -1,0 +1,15 @@
+title: "MECH 564 Fundamentals of Robot Mechanics and Control"
+author: "Colorado State University"
+
+execute:
+  # Set to "auto" or "force" after confirming all notebook dependencies on CI.
+  execute_notebooks: "off"
+
+html:
+  use_issues_button: true
+  use_repository_button: true
+
+repository:
+  # Update these after creating your GitHub repository.
+  url: https://github.com/your-username/mech564-labs
+  branch: main

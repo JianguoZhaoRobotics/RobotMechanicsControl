@@ -1,0 +1,8 @@
+format: jb-book
+root: intro
+chapters:
+  - file: "Lab1 Intro to Python"
+  - file: "Lab2 ForwardKinematics"
+  - file: "Lab3 Inverse Kinematics & Dynamics"
+  - file: "Lab4_RobotControl"
+  - file: "Lab 5 quadruped_trot_demo"

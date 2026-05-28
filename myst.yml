@@ -1,0 +1,19 @@
+version: 1
+
+project:
+  id: 4de74e77-e32a-4cbf-af66-8ea28cd67fbe
+  title: MECH 564 Fundamentals of Robot Mechanics and Control
+  description: Lab notebooks for MECH 564 at Colorado State University.
+  authors:
+    - Colorado State University
+  github: your-username/mech564-labs
+  toc:
+    - file: intro.md
+    - file: Lab1 Intro to Python.ipynb
+    - file: Lab2 ForwardKinematics.ipynb
+    - file: Lab3 Inverse Kinematics & Dynamics.ipynb
+    - file: Lab4_RobotControl.ipynb
+    - file: Lab 5 quadruped_trot_demo.ipynb
+
+site:
+  template: book-theme
