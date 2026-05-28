@@ -39,13 +39,15 @@ jobs:
           pip install -r requirements.txt
 
       - name: Build book
+        env:
+          BASE_URL: /${{ github.event.repository.name }}
         run: |
           jupyter book build .
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: _build/site
+          path: _build/html
 
       - name: Deploy to GitHub Pages
         id: deployment
