@@ -6,7 +6,7 @@ project:
   description: Lab notebooks for MECH 564 at Colorado State University.
   authors:
     - Colorado State University
-  github: your-username/mech564-labs
+  github: JianguoZhaoRobotics/RobotMechanicsControl
   toc:
     - file: intro.md
     - file: Lab1 Intro to Python.ipynb
